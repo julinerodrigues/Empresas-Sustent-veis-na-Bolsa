@@ -1,0 +1,42 @@
+---
+title: "Empresas Sustentáveis listadas na bolsa"
+author: "Me"
+date: "29/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Em ["Entendendo o conceito de sustentabilidade nas organizações"](https://www.redalyc.org/pdf/2234/223417504001.pdf) artigo escrito na Revista de Administração da USP, a autora descreve assim o desenvolvimento sustentável: 
+
+"O desenvolvimento sustentável deve satisfazer  às  necessidades  da  geração  presente  sem  comprometer  as  necessidades  das  gerações  futuras.  Essa  definição  deixa  claro  um  dos  princípios básicos de sustentabilidade, a visão de longo prazo, uma vez que os interesses das futuras gerações devem ser analisados."
+
+O desenvolvimento sustentável por muito tempo foi um problema a ser resolvido no futuro, uma responsabilidade para as próximas gerações. Mas a consciência ambiental e os novos parâmetros para empresas e indústrias, sustentabilidade se tornou uma atitude essencial para disputar espaço em um ambiente competitivo e ganhar a fidelidade dos consumidores.
+
+Para entender essa evolução de pensamento ao longo do tempo, proponho uma curta análise aqui. A qual irá tentar responder ao seguinte questionamento: *"O valor das empresas brasileiras listadas na bolsa e que possuem atitudes sustentáveis, aumentou com o tempo?"*
+
+A bolsa de valores brasileira (B3) possui um Índice de Sustentabilidade chamado [ISE B3](http://iseb3.com.br/o-que-e-o-ise) que foi criada em 2005, e que desde então possui uma carteira de ações de empresas que entre suas estratégias de negócios estão práticas socialmente responsáveis e sustentabilidade empresarial.
+
+No próprio site da B3 existem os boletins iformativos sobre o índice a partir de 2015.
+
+Vamos começar com uma análise exploratória desses dados para entender em qual categoria eles se encaixam.
+
+```{Ano 2015}
+#Primeiro passo é importar o arquivo com os dados para o R. Como os dados estão em um arquivo excel, irei importar os dados a partir do de um diretório do meu computador.
+
+ 
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
